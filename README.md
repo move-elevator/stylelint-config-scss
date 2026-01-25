@@ -1,0 +1,55 @@
+# @move-elevator/stylelint-config-scss
+
+A shareable Stylelint configuration for SCSS (Sass) projects.
+
+## Installation
+
+```bash
+npm i -D @move-elevator/stylelint-config-scss
+```
+
+### Peer Dependencies
+
+This package requires the following peer dependencies:
+
+```bash
+npm i -D postcss-scss stylelint stylelint-order stylelint-scss @stylistic/stylelint-plugin
+```
+
+## Usage
+
+Create a stylelint config file like `.stylelintrc.json` in your project root and extend this configuration:
+
+```json
+{
+  "extends": "@move-elevator/stylelint-config-scss"
+}
+```
+
+## What's Included
+
+This configuration uses `postcss-scss` as the custom syntax and includes the following plugins:
+
+- **@stylistic/stylelint-plugin** - Stylistic rules for formatting
+- **stylelint-order** - Property ordering rules
+- **stylelint-scss** - SCSS-specific linting rules
+
+### Key Rules
+
+| Rule                    | Setting                   |
+|-------------------------|---------------------------|
+| Block opening brace     | Space before              |
+| Color hex case          | Lowercase                 |
+| Color hex length        | Long format (`#ffffff`)   |
+| Leading zero            | Required (`0.5` not `.5`) |
+| Max nesting depth       | 4 levels                  |
+| Named colors            | Not allowed               |
+| Properties order        | Alphabetical              |
+| Pseudo-element notation | Double colon (`::before`) |
+| Selector class pattern  | BEM or kebab-case         |
+| String quotes           | Double quotes             |
+| Trailing semicolon      | Required                  |
+
+## License
+
+[MIT](LICENSE.md)

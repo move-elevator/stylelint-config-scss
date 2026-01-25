@@ -1,0 +1,39 @@
+{
+	"plugins": [
+		"@stylistic/stylelint-plugin",
+		"stylelint-order",
+		"stylelint-scss"
+	],
+	"customSyntax": "postcss-scss",
+	"rules": {
+		"@stylistic/block-opening-brace-space-before": "always",
+		"@stylistic/color-hex-case": "lower",
+		"@stylistic/declaration-block-trailing-semicolon": "always",
+		"@stylistic/number-leading-zero": "always",
+		"@stylistic/string-quotes": "double",
+		"@stylistic/unit-case": "lower",
+		"block-no-empty": true,
+		"color-hex-length": "long",
+		"color-named": "never",
+		"declaration-block-no-duplicate-properties": true,
+		"declaration-block-single-line-max-declarations": 0,
+		"max-nesting-depth": [
+			4,
+			{
+				"ignore": [
+					"blockless-at-rules"
+				]
+			}
+		],
+		"no-duplicate-selectors": true,
+		"order/properties-alphabetical-order": true,
+		"selector-class-pattern": [
+			"^([a-z][a-z0-9]*(-[a-z0-9]+)*|[a-z][a-z0-9]*(__[a-z][a-z0-9]+)?(--[a-z][a-z0-9]+)?)$",
+			{
+				"message": "Class names must be lowercase and follow BEM (for components and layout) or kebab-case (for state classes like .is-active) pattern",
+				"resolveNestedSelectors": true
+			}
+		],
+		"selector-pseudo-element-colon-notation": "double"
+	}
+}
