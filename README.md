@@ -22,7 +22,7 @@ Create a stylelint config file like `.stylelintrc.json` in your project root and
 
 ```json
 {
-  "extends": "@move-elevator/stylelint-config-scss"
+  "extends": "@move-elevator/stylelint-config-scss/.stylelintrc.json"
 }
 ```
 
