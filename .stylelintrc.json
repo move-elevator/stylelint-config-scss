@@ -28,7 +28,7 @@
 		"no-duplicate-selectors": true,
 		"order/properties-alphabetical-order": true,
 		"selector-class-pattern": [
-			"^([a-z][a-z0-9]*(-[a-z0-9]+)*|[a-z][a-z0-9]*(__[a-z][a-z0-9]+)?(--[a-z][a-z0-9]+)?)$",
+			"^([a-z][a-z0-9]*(-[a-z0-9]+)*(__([a-z][a-z0-9]*(-[a-z0-9]+)*))?(--(([a-z]|[0-9])[a-z0-9]*(-[a-z0-9]+)*))?)$",
 			{
 				"message": "Class names must be lowercase and follow BEM (for components and layout) or kebab-case (for state classes like .is-active) pattern",
 				"resolveNestedSelectors": true
