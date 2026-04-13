@@ -6,6 +6,7 @@
 	],
 	"customSyntax": "postcss-scss",
 	"rules": {
+		"@stylistic/block-closing-brace-empty-line-before": "never",
 		"@stylistic/block-opening-brace-space-before": "always",
 		"@stylistic/color-hex-case": "lower",
 		"@stylistic/declaration-block-trailing-semicolon": "always",
@@ -15,6 +16,7 @@
 		"block-no-empty": true,
 		"color-hex-length": "long",
 		"color-named": "never",
+		"declaration-empty-line-before": "never",
 		"declaration-block-no-duplicate-properties": true,
 		"declaration-block-single-line-max-declarations": 0,
 		"max-nesting-depth": [
@@ -27,6 +29,17 @@
 		],
 		"no-duplicate-selectors": true,
 		"order/properties-alphabetical-order": true,
+		"rule-empty-line-before": [
+			"always",
+			{
+				"except": [
+					"first-nested"
+				],
+				"ignore": [
+					"after-comment"
+				]
+			}
+		],
 		"selector-class-pattern": [
 			"^([a-z][a-z0-9]*(-[a-z0-9]+)*(__([a-z][a-z0-9]*(-[a-z0-9]+)*))?(--(([a-z]|[0-9])[a-z0-9]*(-[a-z0-9]+)*))?)$",
 			{

@@ -36,19 +36,26 @@ This configuration uses `postcss-scss` as the custom syntax and includes the fol
 
 ### Key Rules
 
-| Rule                    | Setting                   |
-|-------------------------|---------------------------|
-| Block opening brace     | Space before              |
-| Color hex case          | Lowercase                 |
-| Color hex length        | Long format (`#ffffff`)   |
-| Leading zero            | Required (`0.5` not `.5`) |
-| Max nesting depth       | 4 levels                  |
-| Named colors            | Not allowed               |
-| Properties order        | Alphabetical              |
-| Pseudo-element notation | Double colon (`::before`) |
-| Selector class pattern  | BEM or kebab-case         |
-| String quotes           | Double quotes             |
-| Trailing semicolon      | Required                  |
+| Rule                           | Setting                                             |
+|--------------------------------|-----------------------------------------------------|
+| Block closing brace empty line | No empty line before `}`                            |
+| Block opening brace            | Space before                                        |
+| Color hex case                 | Lowercase                                           |
+| Color hex length               | Long format (`#ffffff`)                             |
+| Declaration empty line before  | Never                                               |
+| Duplicate properties           | Not allowed                                         |
+| Empty blocks                   | Not allowed                                         |
+| Leading zero                   | Required (`0.5` not `.5`)                           |
+| Max nesting depth              | 4 levels (ignoring blockless at-rules)              |
+| Named colors                   | Not allowed                                         |
+| Properties order               | Alphabetical                                        |
+| Pseudo-element notation        | Double colon (`::before`)                           |
+| Rule empty line before         | Always (except first-nested, ignored after comment) |
+| Selector class pattern         | BEM or kebab-case                                   |
+| Single-line declarations       | Not allowed                                         |
+| String quotes                  | Double quotes                                       |
+| Trailing semicolon             | Required                                            |
+| Unit case                      | Lowercase                                           |
 
 ## License
 
