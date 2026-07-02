@@ -16,7 +16,7 @@
 		"fix:package:normalize": "prettier-package-json --write package.json --use-tabs"
 	},
 	"peerDependencies": {
-		"@stylistic/stylelint-plugin": "^5.2.0",
+		"@stylistic/stylelint-plugin": "^5.2.1",
 		"postcss-scss": "^4.0.9",
 		"stylelint": "^17.14.0",
 		"stylelint-order": "^8.1.1",
