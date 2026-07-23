@@ -18,13 +18,13 @@
 	"peerDependencies": {
 		"@stylistic/stylelint-plugin": "^5.2.1",
 		"postcss-scss": "^4.0.9",
-		"stylelint": "^17.14.0",
+		"stylelint": "^17.14.1",
 		"stylelint-order": "^8.1.1",
 		"stylelint-scss": "^7.2.0"
 	},
 	"devDependencies": {
 		"prettier-package-json": "^2.8.0",
-		"semantic-release": "^25.0.7"
+		"semantic-release": "^25.0.8"
 	},
 	"keywords": [
 		"move elevator",
