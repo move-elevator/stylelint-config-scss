@@ -16,7 +16,7 @@
 		"fix:package:normalize": "prettier-package-json --write package.json --use-tabs"
 	},
 	"peerDependencies": {
-		"@stylistic/stylelint-plugin": "^5.2.1",
+		"@stylistic/stylelint-plugin": "^5.3.0",
 		"postcss-scss": "^4.0.9",
 		"stylelint": "^17.14.1",
 		"stylelint-order": "^8.1.1",
@@ -24,7 +24,7 @@
 	},
 	"devDependencies": {
 		"prettier-package-json": "^2.8.0",
-		"semantic-release": "^25.0.8"
+		"semantic-release": "^25.0.9"
 	},
 	"keywords": [
 		"move elevator",
