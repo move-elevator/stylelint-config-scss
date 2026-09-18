@@ -20,7 +20,7 @@
 		"postcss-scss": "^4.0.9",
 		"stylelint": "^17.15.0",
 		"stylelint-order": "^8.1.1",
-		"stylelint-scss": "^7.2.0"
+		"stylelint-scss": "^7.3.0"
 	},
 	"devDependencies": {
 		"prettier-package-json": "^2.8.0",
