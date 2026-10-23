@@ -26,6 +26,7 @@ jobs:
             registry-url: "https://registry.npmjs.org"
       - run: npm ci
       - run: npm audit signatures
+      - run: npm test
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
