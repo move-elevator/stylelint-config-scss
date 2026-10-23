@@ -1,0 +1,30 @@
+@use "sass:math";
+
+$spacing: 0.5rem;
+
+.card {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: "Helvetica Neue", sans-serif;
+    margin: $spacing;
+
+    &::before {
+        content: "";
+    }
+
+    .card__title {
+        font-size: math.div(24px, 2);
+    }
+
+    &--highlighted {
+        border: 1px solid #ff0000;
+    }
+
+    @media (min-width: 768px) {
+        padding: 1rem;
+    }
+}
+
+.is-active {
+    opacity: 1;
+}

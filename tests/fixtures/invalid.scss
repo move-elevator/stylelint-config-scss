@@ -1,0 +1,93 @@
+.closing-brace {
+    color: #000000;
+
+}
+
+.opening-brace{
+    color: #000000;
+}
+
+.hex-case {
+    color: #FFFFFF;
+}
+
+.trailing-semicolon {
+    color: #000000
+}
+
+.leading-zero {
+    opacity: .5;
+}
+
+.string-quotes {
+    content: 'x';
+}
+
+.unit-case {
+    width: 10PX;
+}
+
+.empty-block {}
+
+.hex-length {
+    color: #fff;
+}
+
+.named-color {
+    color: red;
+}
+
+.declaration-empty-line {
+    color: #000000;
+
+    opacity: 1;
+}
+
+.duplicate-property {
+    color: #000000;
+    color: #ffffff;
+}
+
+.single-line { color: #000000; }
+
+.nesting {
+    .level-1 {
+        .level-2 {
+            .level-3 {
+                .level-4 {
+                    .level-5 {
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.duplicate-selector {
+    color: #000000;
+}
+
+.duplicate-selector {
+    opacity: 1;
+}
+
+.alphabetical-order {
+    opacity: 1;
+    color: #000000;
+}
+
+.rule-empty-line-a {
+    color: #000000;
+}
+.rule-empty-line-b {
+    color: #000000;
+}
+
+.camelCase {
+    color: #000000;
+}
+
+.pseudo-element:before {
+    content: "";
+}
