@@ -10,12 +10,20 @@
 	"commitBodyTable": true,
 	"packageRules": [
 		{
+			"matchDepTypes": ["peerDependencies"],
 			"matchUpdateTypes": ["major"],
 			"groupName": "all major dependencies",
 			"groupSlug": "all-major",
 			"commitMessageTopic": "major dependencies",
 			"commitMessagePrefix": "chore(deps)!:",
 			"commitBody": "BREAKING CHANGE: This PR contains major dependency updates and may require code changes."
+		},
+		{
+			"matchDepTypes": ["devDependencies"],
+			"matchUpdateTypes": ["major"],
+			"groupName": "major dev dependencies",
+			"groupSlug": "major-dev",
+			"commitMessageTopic": "major dev dependencies"
 		},
 		{
 			"matchUpdateTypes": ["minor", "patch"],
