@@ -13,7 +13,8 @@
 		"*.md"
 	],
 	"scripts": {
-		"fix:package:normalize": "prettier-package-json --write package.json --use-tabs"
+		"fix:package:normalize": "prettier-package-json --write package.json --use-tabs",
+		"test": "node --test"
 	},
 	"peerDependencies": {
 		"@stylistic/stylelint-plugin": "^5.3.1",
