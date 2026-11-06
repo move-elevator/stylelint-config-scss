@@ -17,9 +17,9 @@
 		"test": "node --test"
 	},
 	"peerDependencies": {
-		"@stylistic/stylelint-plugin": "^5.3.1",
+		"@stylistic/stylelint-plugin": "^6.0.1",
 		"postcss-scss": "^4.0.9",
-		"stylelint": "^17.16.0",
+		"stylelint": "^18.0.0",
 		"stylelint-order": "^8.1.3",
 		"stylelint-scss": "^7.4.0"
 	},
